@@ -864,7 +864,7 @@
 	path = libs/mungotest
 	url = git@github.com:MungoG/mungo_beast_testing.git
 	branch = main
-[submodule "libs/decimal"]
+[submodule "decimal"]
 	path = libs/decimal
 	url = https://github.com/cppalliance/decimal
 [submodule "beast2"]
@@ -873,3 +873,6 @@
 [submodule "libs/capy"]
 	path = libs/capy
 	url = ../capy.git
+[submodule "libs/corosio"]
+	path = libs/corosio
+	url = ../corosio.git
