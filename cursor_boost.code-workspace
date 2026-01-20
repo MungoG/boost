@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "capy",
+      "path": "libs/capy"
+    },
+    {
+      "name": "corosio",
+      "path": "libs/corosio"
+    },
+    {
+      "name": "http",
+      "path": "libs/http"
+    },
+    {
+      "name": "beast2",
+      "path": "libs/beast2"
+    },
+    {
+      "name": "url",
+      "path": "libs/url"
+    }
+  ],
+  "settings": {
+    "cmake.useCMakePresets": "always",
+    "editor.formatOnSave": true,
+    "[cpp]": {
+      "editor.defaultFormatter": "anysphere.cpptools"
+    },
+    "[c]": {
+      "editor.defaultFormatter": "anysphere.cpptools"
+    },
+    "C_Cpp.clang_format_style": "file",
+    "clangd.arguments": ["--enable-config"]
+  }
+}
